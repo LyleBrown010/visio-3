@@ -78,14 +78,14 @@ svg {
     color: white;
     position: absolute;
     right: 12%;
-    top: 85%;
+    margin-top: -80px;
 }
 
-@media screen and (max-width: 450px){
+/* @media screen and (max-width: 450px){
     .bullet{
         display: none;
     }
-}
+} */
 
 .carousel-text {
     display: flex;
@@ -152,13 +152,6 @@ svg {
     max-height: 550px;
 }
 
-@media screen and (max-width: 600px){
-    .slider-inner img.active {
-        width: 80%;
-        height: 400px;
-    }
-}
-
 @media screen and (max-width: 450px){
     .slider-inner img.active{
         width: 100%;
@@ -169,13 +162,6 @@ svg {
     .slider-inner img.active {
         width: 80%;
         height: 300px;
-    }
-}
-
-@media screen and (max-width: 250px){
-    .slider-inner img.active {
-        width: 100vw;
-        height: 30vh;
     }
 }
 
