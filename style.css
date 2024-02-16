@@ -329,10 +329,20 @@ svg {
     gap: 1%;
     /* justify-content: center; */
     justify-content: space-evenly;
-    padding: 0px 103px;
+    padding: 0px 76px;
 
 }
 
+@media screen and (max-width: 1657px){
+    .bottom-section{
+        padding: 0px 100px;
+    }
+}
+@media screen and (max-width: 1537px){
+    .bottom-section{
+        padding: 0px 129px;
+    }
+}
 @media screen and (max-width: 1094px){
     .bottom-section{
         padding: 0px 102px;
